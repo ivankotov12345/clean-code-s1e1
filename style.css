@@ -4,47 +4,60 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header-img {
   width: 100%;
 }
+
 .link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+
+.header { 
+  text-align: center;
 }
+
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task-input,
 .task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .task-input-wrapper {
   display: flex;
 }
+
 .task-list {
   margin: 0;
   padding: 0px;
 }
+
 .task-list-item {
   list-style: none;
 }
+
 input,.section-btn {
   outline: none;
 }
+
 .section-btn {
   background: none;
   border: 0px;
@@ -54,9 +67,11 @@ input,.section-btn {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .section-title,
 .task-label {
@@ -68,6 +83,7 @@ button:hover {
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-input {
   margin: 0;
   font-size: 18px;
@@ -80,6 +96,7 @@ button:hover {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-input:focus {
   color: #333;
 }
@@ -89,6 +106,7 @@ button:hover {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -98,7 +116,6 @@ button:hover {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -107,17 +124,20 @@ button:hover {
 .check-box {
   margin: 0 10px;
 }
+
 .task-list-item > .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .delete-mage {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-mage:hover {
   transform: rotateZ(0);
 }
