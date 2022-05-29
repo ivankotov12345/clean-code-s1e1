@@ -75,7 +75,7 @@ button:hover {
 
 /* Heading */
 .section-title,
-.task-label {
+.label-add {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,7 +103,7 @@ button:hover {
 }
 
 /* New Task */
-.task-label {
+.label-add {
   display: block;
   margin: 0 0 20px;
 }
