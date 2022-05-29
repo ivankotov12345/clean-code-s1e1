@@ -7,18 +7,18 @@
   </head>
   <body class="page">
     <header class="header">
-      <img src="./eisenhower-matrix.jpg" alt="Eisenhower matrix" class="header-img">
-      <a class="link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <img src="./eisenhower-matrix.jpg" alt="Eisenhower matrix" class="header__img">
+      <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main">
-      <section id="input-section">
-        <label for="new-task" class="label-add">Add Item</label>
-        <div class="task-input-wrapper">
-          <input id="new-task"class="task-input" type="text">
+      <section class="input-section">
+        <label for="new-task" class="input-section__label">Add Item</label>
+        <div class="input-section__wrapper">
+          <input id="new-task" class="task-input" type="text">
           <button class="section-btn">Add</button>
         </div>
       </section>
-      <section id="incomplete-task-section">
+      <section class="incomplete-section">
         <h3 class="section-title">Todo</h3>
         <ul id="incomplete-tasks" class="task-list">
           <li class="task-list-item">
@@ -28,7 +28,7 @@
             <button class="section-btn">Edit</button>
             <button class="section-btn delete-btn"><img src="./remove.svg" alt="Remove button image" class="delete-mage"></button>
           </li>
-          <li class="edit-mode task-list-item">
+          <li class="incomplete-section__edit-mode task-list-item">
             <input type="checkbox">
             <label class="task-label">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task-input">
@@ -37,7 +37,7 @@
           </li>
         </ul>
       </section>
-      <section id="complete-task-section">
+      <section class="complete-section">
         <h3 class="section-title">Completed</h3>
         <ul id="completed-tasks" class="task-list">
           <li class="task-list-item">
