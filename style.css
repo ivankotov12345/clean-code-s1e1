@@ -133,13 +133,13 @@ button:hover {
   width: 226px;
 }
 
-.delete-mage {
+.delete-image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete-mage:hover {
+.delete-image:hover {
   transform: rotateZ(0);
 }
 
