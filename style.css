@@ -150,11 +150,11 @@ button:hover {
 }
 
 /* Edit Task */
-.task-list .task-list-item .task-input {
+.task-list-item .task-input {
   display: none;
 }
 
-.task-list .incomplete-section__edit-mode .task-input {
+.incomplete-section__edit-mode .task-input {
   display: inline-block;
   width: 224px;
 }
