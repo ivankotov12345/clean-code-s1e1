@@ -103,7 +103,7 @@ button:hover {
 }
 
 /* New Task */
-.input-section__label {
+.input-section__title {
   display: block;
   margin: 0 0 20px;
 }
@@ -144,7 +144,7 @@ button:hover {
 }
 
 /* Completed */
-.task-list .complete-section__task-label {
+.complete-section .task-label {
   text-decoration: line-through;
   color: #888;
 }
@@ -154,11 +154,11 @@ button:hover {
   display: none;
 }
 
-.incomplete-section__edit-mode .task-input {
+.edit-mode .task-input {
   display: inline-block;
   width: 224px;
 }
 
-.incomplete-section__edit-mode .task-label {
+.edit-mode .task-label {
   display: none;
 }

@@ -12,15 +12,15 @@
     </header>
     <main class="main">
       <section class="input-section">
-        <label for="new-task" class="input-section__label">Add Item</label>
+        <h1 class="section-title input-section__title">Add Item</h1>
         <div class="input-section__wrapper">
           <input id="new-task" class="task-input" type="text">
           <button class="section-btn">Add</button>
         </div>
       </section>
-      <section id="incomplete-section">
+      <section class="incomplete-section">
         <h3 class="section-title">Todo</h3>
-        <ul class="task-list">
+        <ul class="task-list" id="incomplete-task">
           <li class="task-list-item">
             <input type="checkbox" class="check-box">
             <label class="task-label">Pay Bills</label>
@@ -28,21 +28,21 @@
             <button class="section-btn edit-btn">Edit</button>
             <button class="section-btn delete-btn"><img src="./remove.svg" alt="Remove button image" class="delete-image"></button>
           </li>
-          <li class="incomplete-section__edit-mode task-list-item">
-            <input type="checkbox">
+          <li class="task-list-item edit-mode">
+            <input type="checkbox" class="check-box">
             <label class="task-label">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task-input">
-            <button class="section-btn">Save</button>
+            <button class="section-btn edit-btn">Save</button>
             <button class="section-btn delete-btn"><img src="./remove.svg" alt="Remove button image" class="delete-image"></button>
           </li>
         </ul>
       </section>
-      <section id="complete-section">
+      <section class="complete-section">
         <h3 class="section-title">Completed</h3>
-        <ul class="task-list">
+        <ul class="task-list" id="complete-task">
           <li class="task-list-item">
-            <input type="checkbox" checked>
-            <label class="task-label complete-section__task-label">See the Doctor</label>
+            <input type="checkbox" class="check-box" checked>
+            <label class="task-label">See the Doctor</label>
             <input type="text" class="task-input">
             <button class="section-btn edit-btn">Edit</button>
             <button class="section-btn delete-btn"><img src="./remove.svg" alt="Remove button image" class="delete-image"></button>
